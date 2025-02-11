@@ -1,0 +1,33 @@
+{
+  "name": "frontend-tue267",
+  "version": "1.0.0",
+  "description": "Repository For FrontEnd",
+  "main": "index.js",
+  "scripts": {
+    "format": "prettier --write *.js",
+    "start": "node AxiosNodeHtml.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kroekrit09/FrontEnd-Tue267.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kroekrit09/FrontEnd-Tue267/issues"
+  },
+  "homepage": "https://github.com/Kroekrit09/FrontEnd-Tue267#readme",
+  "dependencies": {
+    "axios": "^1.7.9",
+    "body-parser": "^1.20.3",
+    "dotenv": "^16.4.7",
+    "ejs": "^3.1.10",
+    "express": "^4.21.2",
+    "http": "^0.0.1-security",
+    "sqlite3": "^5.1.7"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
